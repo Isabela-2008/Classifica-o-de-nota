@@ -1,0 +1,15 @@
+#Leitura da nota
+nota = float(input("Digite a nota: "))
+
+#Classificação da nota
+if nota >= 9:
+    Classificação = ótimo
+elif nota >= 7:
+    classificação = "Bom"
+elif nota >= 5:
+    classificação = "Suficiente"
+else: 
+     classificação = "Insuficiente"
+
+#Exibição da classificação 
+print(f"A nota é claassifcada  como: {classificação}")
