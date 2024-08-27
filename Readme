@@ -1,0 +1,50 @@
+# Enunciado do Projeto: Classificador de Notas
+
+## Objetivo
+
+Desenvolver um programa em Python que classifica uma nota fornecida pelo usuário em categorias específicas e exibe a classificação correspondente. A classificação é baseada no valor da nota inserida.
+
+## Especificações
+
+1. **Leitura da Nota**
+   - O programa deve solicitar ao usuário que insira uma nota.
+
+2. **Classificação da Nota**
+   - O programa deve classificar a nota nas seguintes categorias:
+     - **Ótimo:** Nota maior ou igual a 9.
+     - **Bom:** Nota maior ou igual a 7 e menor que 9.
+     - **Suficiente:** Nota maior ou igual a 5 e menor que 7.
+     - **Insuficiente:** Nota menor que 5.
+
+3. **Exibição da Classificação**
+   - O programa deve exibir a classificação da nota.
+
+## Considerações
+
+- O sistema deve ser executado em modo de linha de comando (CLI).
+- O código deve ser simples e organizado, com tratamento básico para garantir que a entrada seja um número válido.
+- O programa deve garantir que a classificação seja exibida corretamente, levando em conta as categorias estabelecidas.
+
+## Observações
+
+- Certifique-se de corrigir erros de digitação na string "Classificação" no código original (deve ser "classificação" para manter a consistência com o Python).
+# Classificador de Notas
+
+Este é um programa em Python que classifica uma nota fornecida pelo usuário em categorias específicas: "Ótimo", "Bom", "Suficiente" ou "Insuficiente". A classificação é baseada no valor da nota inserida.
+
+## Funcionalidades
+
+- **Leitura da Nota:** O programa solicita ao usuário que insira uma nota.
+- **Classificação da Nota:** O programa classifica a nota nas seguintes categorias:
+  - **Ótimo:** Nota maior ou igual a 9.
+  - **Bom:** Nota maior ou igual a 7 e menor que 9.
+  - **Suficiente:** Nota maior ou igual a 5 e menor que 7.
+  - **Insuficiente:** Nota menor que 5.
+- **Exibição da Classificação:** O programa exibe a classificação da nota.
+
+## Como Usar
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/classificador-notas.git
